@@ -1,198 +1,198 @@
 [
   {
-    "objectID": "zh/team.html",
-    "href": "zh/team.html",
-    "title": "团队联系",
+    "objectID": "en/team.html",
+    "href": "en/team.html",
+    "title": "Collaboration and Contact",
     "section": "",
-    "text": "数据申请、学术合作与问题反馈渠道。"
+    "text": "Providing channels for data access requests, academic collaboration, and feedback."
   },
   {
-    "objectID": "zh/team.html#学术合作",
-    "href": "zh/team.html#学术合作",
-    "title": "团队联系",
-    "section": "学术合作",
-    "text": "学术合作\n本数据库欢迎围绕土地改革、经济史、农村发展、历史地理、数字人文等方向开展学术合作。\n合作内容包括：\n\n基于数据库开展相关研究；\n数据变量设计与完善；\n数据质量反馈与改进；\n学术成果交流。"
+    "objectID": "en/team.html#academic-collaboration",
+    "href": "en/team.html#academic-collaboration",
+    "title": "Collaboration and Contact",
+    "section": "Academic Collaboration",
+    "text": "Academic Collaboration\nThis database welcomes academic collaboration in areas including land reform, economic history, rural development, historical geography, and digital humanities.\nPotential collaboration includes:\n\nConducting research based on the database;\nImproving variable design and database structure;\nProviding feedback on data quality and potential improvements;\nSharing academic research outcomes."
   },
   {
-    "objectID": "zh/team.html#数据申请",
-    "href": "zh/team.html#数据申请",
-    "title": "团队联系",
-    "section": "数据申请",
-    "text": "数据申请\n如需申请使用数据库数据，请联系项目团队。\n申请时请说明：\n\n研究目的；\n使用的数据范围；\n涉及变量或地区；\n预期研究成果。"
+    "objectID": "en/team.html#data-access-requests",
+    "href": "en/team.html#data-access-requests",
+    "title": "Collaboration and Contact",
+    "section": "Data Access Requests",
+    "text": "Data Access Requests\nResearchers who wish to request access to the database should contact the project team.\nPlease provide the following information:\n\nResearch objectives;\nScope of requested data usage;\nRelevant variables or geographic areas;\nExpected research outputs."
   },
   {
-    "objectID": "zh/team.html#feedback",
-    "href": "zh/team.html#feedback",
-    "title": "团队联系",
-    "section": "问题反馈",
-    "text": "问题反馈\n如发现：\n\n数据缺失；\n变量定义问题；\n编码错误；\n地方志资料补充信息；\n\n欢迎反馈。\n请邮件联系项目团队，并附相关说明。"
+    "objectID": "en/team.html#feedback",
+    "href": "en/team.html#feedback",
+    "title": "Collaboration and Contact",
+    "section": "Feedback",
+    "text": "Feedback\nUsers are welcome to provide feedback regarding:\n\nMissing data;\nIssues with variable definitions;\nCoding errors;\nAdditional information from local gazetteer sources.\n\nPlease contact the project team by email and provide relevant details."
   },
   {
-    "objectID": "zh/team.html#联系方式",
-    "href": "zh/team.html#联系方式",
-    "title": "团队联系",
-    "section": "联系方式",
-    "text": "联系方式\n邮箱：\nxxx@xxx.edu.cn"
+    "objectID": "en/team.html#contact-information",
+    "href": "en/team.html#contact-information",
+    "title": "Collaboration and Contact",
+    "section": "Contact Information",
+    "text": "Contact Information\nEmail:\nxxx@xxx.edu.cn"
   },
   {
-    "objectID": "zh/index.html",
-    "href": "zh/index.html",
-    "title": "首页｜CGLRD",
+    "objectID": "en/index.html",
+    "href": "en/index.html",
+    "title": "Home｜CGLRD",
     "section": "",
-    "text": "China-Gazetteer-LandReform\n\n基于省志、市志、县志、区志等地方志资料，构建全国统一口径的土地改革县级数据集，服务土地再分配、阶级结构、经济史与区域比较研究。"
+    "text": "China-Gazetteer-LandReform\n\nA county-level database on China’s land reform, constructed from provincial, municipal, county, and district gazetteers, to support research on land redistribution, class structure, economic history, and regional comparison."
   },
   {
-    "objectID": "zh/index.html#数据库亮点",
-    "href": "zh/index.html#数据库亮点",
-    "title": "首页｜CGLRD",
-    "section": "数据库亮点",
-    "text": "数据库亮点\n\n\n全国统一口径\n统一数据整理规范、变量定义与编码体系，提高跨地区比较研究的可行性。\n\n\n基于官方地方志资料\n以新修地方志为主，并结合农业志、经济志、政治志等专题志交叉验证。\n\n\n覆盖土地改革全过程\n整理阶级划分、土地占有、土地分配、生产资料和财产没收分配等信息。\n\n\n标准化变量编码体系\n保留原始记载，并对可比字段进行标准化、结构化和来源标记。\n\n\n空间与历史比较\n采用统一行政区划编码，支持 GIS 匹配、区域比较和历史地理研究。"
+    "objectID": "en/index.html#database-highlights",
+    "href": "en/index.html#database-highlights",
+    "title": "Home｜CGLRD",
+    "section": "Database Highlights",
+    "text": "Database Highlights\n\n\nUnified Statistical Framework\nA unified system of data organization, variable definitions, and coding standards to improve the comparability of cross-regional research.\n\n\nBased on Official Gazetteer Sources\nPrimarily based on newly compiled local gazetteers, with cross-validation using specialized gazetteers on agriculture, economy, and politics.\n\n\nCoverage of the Full Land Reform Process\nIncludes information on class classification, landholding, land redistribution, and the confiscation and allocation of productive assets and property.\n\n\nStandardized Variable Coding System\nPreserves original records while providing standardized, structured, and source-labeled fields for comparison.\n\n\nSpatial and Historical Comparison\nUses unified administrative division codes and supports GIS matching, regional comparison, and historical geography research."
   },
   {
-    "objectID": "zh/documentation.html",
-    "href": "zh/documentation.html",
-    "title": "文档与学术规范",
+    "objectID": "en/documentation.html",
+    "href": "en/documentation.html",
+    "title": "Documentation and Usage Guidelines",
     "section": "",
-    "text": "说明数据解读、使用协议、引用方式与版本管理。"
+    "text": "Providing guidance on data interpretation, usage agreements, citation formats, and version management."
   },
   {
-    "objectID": "zh/documentation.html#guide",
-    "href": "zh/documentation.html#guide",
-    "title": "文档与学术规范",
-    "section": "使用指南",
-    "text": "使用指南\n\n使用前阅读变量字典与数据清洗说明书。\n注意区分全县统计与典型乡村调查。\n保留原始值、标准化值和推算值之间的差别。"
+    "objectID": "en/documentation.html#guide",
+    "href": "en/documentation.html#guide",
+    "title": "Documentation and Usage Guidelines",
+    "section": "User Guide",
+    "text": "User Guide\n\nUsers should read the codebook and data cleaning documentation before using the database.\nUsers should distinguish between county-level statistical records and representative village-level surveys.\nUsers should maintain the distinction between original values, standardized values, and estimated values."
   },
   {
-    "objectID": "zh/documentation.html#agreement",
-    "href": "zh/documentation.html#agreement",
-    "title": "文档与学术规范",
-    "section": "数据使用协议",
-    "text": "数据使用协议\n\n本数据库主要用于学术研究、教学及非商业用途。用户在使用数据库数据时，应注明数据来源，并按照数据库提供的引用格式进行引用。\n未经项目组授权，用户不得将完整数据库文件进行公开传播、转售或用于商业用途。\n用户基于本数据库形成的研究成果，应在论文、报告或其他公开成果中说明数据来源。\n数据库目前持续更新与完善，如发现数据错误或存在疑问，欢迎联系项目组反馈。"
+    "objectID": "en/documentation.html#agreement",
+    "href": "en/documentation.html#agreement",
+    "title": "Documentation and Usage Guidelines",
+    "section": "Data Use Agreement",
+    "text": "Data Use Agreement\n\nThis database is primarily intended for academic research, teaching, and non-commercial purposes. Users should acknowledge the data source and cite the database according to the recommended citation format.\nWithout authorization from the project team, users may not publicly distribute, resell, or use the complete database files for commercial purposes.\nResearch outputs based on this database should clearly acknowledge the data source in academic papers, reports, or other publicly available materials.\nThe database is continuously updated and improved. Users are welcome to contact the project team regarding potential errors, questions, or suggestions."
   },
   {
-    "objectID": "zh/documentation.html#citation",
-    "href": "zh/documentation.html#citation",
-    "title": "文档与学术规范",
-    "section": "引用规范",
-    "text": "引用规范\n\n建议格式：\n中国地方志土地改革数据库项目组. 中国地方志土地改革数据库（V1.0）[DB/OL]. 项目网址, 2026."
+    "objectID": "en/documentation.html#citation",
+    "href": "en/documentation.html#citation",
+    "title": "Documentation and Usage Guidelines",
+    "section": "Citation Guidelines",
+    "text": "Citation Guidelines\n\nRecommended citation format：\nChina Gazetteer Land Reform Database Project Team. China Gazetteer Land Reform Database (Version 1.0) [DB/OL]. Project website, 2026."
   },
   {
-    "objectID": "zh/codebook.html",
-    "href": "zh/codebook.html",
-    "title": "核心指标与变量字典",
+    "objectID": "en/codebook.html",
+    "href": "en/codebook.html",
+    "title": "Codebook",
     "section": "",
-    "text": "理解字段含义、统计范围、计量单位、编码规则和衍生变量。"
+    "text": "Describing variable definitions, data coverage, measurement units, coding rules, and derived variables."
   },
   {
-    "objectID": "zh/codebook.html#变量字典示例",
-    "href": "zh/codebook.html#变量字典示例",
-    "title": "核心指标与变量字典",
-    "section": "变量字典示例",
-    "text": "变量字典示例\n\n\n\n\n\n\n\n\n\n\n\n变量名\n中文名称\n类型\n示例\n说明\n\n\n\n\nprov\n省级\n字符串\n四川省\n省级行政区名称\n\n\ncounty_code\n县/区级代码\n字符串\n510123\n统一县级空间识别码\n\n\nyesno_gazette_dummy\n是否有地方志\n字符串\n有\n标记该地区是否找到可用地方志资料\n\n\ntables_types_label\n表格或文字类型\n字符串\n土改前调查表\n标记资料类型，如土改前调查表、土改前/后土地占有表、阶级成分划分表等\n\n\npre_total_hh\n土改前全县总户数\n数值\n42631\n土改前统计范围内的总户数\n\n\npre_total_area\n土改前全县土地总面积\n数值\n652318.5\n土改前统计范围内的土地总面积\n\n\n\n\n\n下载完整变量字典\n当前版本暂未开放下载，正式文件整理完成后将在此处更新。\n\nCSV 版变量字典（待更新）"
+    "objectID": "en/codebook.html#codebook-examples",
+    "href": "en/codebook.html#codebook-examples",
+    "title": "Codebook",
+    "section": "Codebook Examples",
+    "text": "Codebook Examples\n\n\n\n\n\n\n\n\n\n\n\nVariable\nDefinition\nType\nExample\nDescription\n\n\n\n\nprov\nProvince\nString\nSichuan Province\nName of the provincial-level administrative unit\n\n\ncounty_code\nCounty/District Code\nString\n510123\nUnified spatial identification code for county-level units\n\n\nyesno_gazette_dummy\nAvailability of Gazetteer Records\nString\nAvailable\nIndicates whether usable local gazetteer materials were identified for the region\n\n\ntables_types_label\nTable or Text Type\nString\nPre-land-reform Survey Table\nIdentifies the type of source material, such as pre-land-reform survey tables, land ownership tables before/after reform, and class composition tables\n\n\npre_total_hh\nTotal Households Before Land Reform\nNumeric\n42631\nTotal number of households within the statistical scope before land reform\n\n\npre_total_area\nTotal Land Area Before Land Reform\nNumeric\n652318.5\nTotal land area within the statistical scope before land reform\n\n\n\n\n\nDownload Full Codebook\nThe current version is not yet available for download. The official codebook file will be released after completion of data documentation and verification.\n\nCSV Codebook (Coming Soon)"
   },
   {
-    "objectID": "zh/about.html",
-    "href": "zh/about.html",
-    "title": "项目概况",
+    "objectID": "en/about.html",
+    "href": "en/about.html",
+    "title": "Overview",
     "section": "",
-    "text": "介绍数据库建设背景、目标、现阶段工作和适用研究方向。"
+    "text": "Introducing the database background, objectives, current development status, and potential research applications."
   },
   {
-    "objectID": "zh/about.html#background",
-    "href": "zh/about.html#background",
-    "title": "项目概况",
-    "section": "研究背景",
-    "text": "研究背景\n土地改革是 20 世纪中国最重要的制度变迁之一，对农村土地制度、阶级结构、农业生产以及后续社会主义改造产生了深远影响。近年来，土地改革及其长期经济社会影响逐渐成为经济史、政治经济学和发展经济学的重要研究议题。然而，现有研究大多依赖省级统计、个案调查或少量地区数据，全国范围、县级尺度且具有统一口径的数据库仍较缺乏。\n中国地方志作为地方政府组织编修的重要历史文献，系统记录各地自然、经济、社会和历史发展的全过程，尤其保存了大量有关土地改革实施、阶级划分、土地占有、生产资料分配及财产没收的官方资料。依托地方志构建标准化、数字化数据库，不仅能够有效保存历史资料，也为土地改革相关研究提供更加系统、可靠和可量化的数据基础。"
+    "objectID": "en/about.html#background",
+    "href": "en/about.html#background",
+    "title": "Overview",
+    "section": "Research Background",
+    "text": "Research Background\nLand reform was one of the most significant institutional transformations in twentieth-century China. It profoundly reshaped rural land institutions, social structures, agricultural production, and subsequent socialist transformation. In recent years, land reform and its long-term economic and social consequences have become important topics in economic history, political economy, and development economics.\nHowever, existing research has largely relied on provincial-level statistics, case studies, or limited regional datasets. A nationwide county-level database with consistent definitions and standardized measures remains limited.\nChinese local gazetteers, compiled under the organization of local governments, provide systematic records of regional natural, economic, social, and historical development. In particular, they preserve extensive official records related to the implementation of land reform, class classification, land ownership, allocation of productive assets, and property redistribution.\nBy transforming gazetteer materials into a standardized and digitized database, this project aims to preserve valuable historical records while providing a systematic, reliable, and quantifiable data foundation for research on China’s land reform."
   },
   {
-    "objectID": "zh/about.html#goal",
-    "href": "zh/about.html#goal",
-    "title": "项目概况",
-    "section": "项目目标",
-    "text": "项目目标\n基于全国地方志资料，构建覆盖县级行政单元的标准化土地改革数据库，通过统一的数据采集标准、数据整理流程与变量编码体系，对地方志中有关土地改革的信息进行数字化整理，实现土地改革相关数据的标准化、可检索和可量化，为经济史研究、区域比较研究及相关学科提供开放的数据基础设施。\n\n现阶段重点：已有数据确认、缺失补充、错误修正、变量统一与数据库标准化建设。"
+    "objectID": "en/about.html#goal",
+    "href": "en/about.html#goal",
+    "title": "Overview",
+    "section": "Objectives",
+    "text": "Objectives\nBased on nationwide local gazetteer materials, this project constructs a standardized county-level database on China’s land reform. Through unified data collection protocols, data processing procedures, and variable coding systems, information related to land reform recorded in local gazetteers is digitally organized and structured.\nThe database aims to provide searchable, standardized, and quantifiable historical data infrastructure for research in economic history, regional comparison, and related interdisciplinary fields.\n\nCurrent focus: verification of existing data, supplementation of missing information, correction of errors, variable harmonization, and standardized database construction."
   },
   {
-    "objectID": "zh/about.html#applications",
-    "href": "zh/about.html#applications",
-    "title": "项目概况",
-    "section": "数据适用方向",
-    "text": "数据适用方向\n\n土地改革与土地再分配研究\n土地制度变迁与农村产权研究\n阶级结构及社会分层研究\n农业经济史与农村发展研究\n区域经济比较与中国现代经济史研究\nGIS 空间分析、历史地理与数字人文研究"
+    "objectID": "en/about.html#applications",
+    "href": "en/about.html#applications",
+    "title": "Overview",
+    "section": "Research Applications",
+    "text": "Research Applications\n\nLand reform and land redistribution studies\nInstitutional changes in land systems and rural property rights\nSocial stratification and class structure research\nAgricultural economic history and rural development studies\nRegional economic comparison and modern Chinese economic history\nGIS-based spatial analysis, historical geography, and digital humanities research"
   },
   {
-    "objectID": "zh/about.html#team",
-    "href": "zh/about.html#team",
-    "title": "项目概况",
-    "section": "项目团队",
-    "text": "项目团队\n\n项目负责人\n曲兆鹏\n\n\n核心团队(以姓名首字母排序)\n陈奕蒙\n劳伟健\n许诺\n王孟烨\n张惟轩\n张英杰\n\n\n项目贡献者\n感谢如下同学为项目建设做出的贡献"
+    "objectID": "en/about.html#team",
+    "href": "en/about.html#team",
+    "title": "Overview",
+    "section": "Project Team",
+    "text": "Project Team\n\nPrincipal Investigator\nZhaopeng Qu\n\n\nCore Team\n\n\nContributors"
   },
   {
-    "objectID": "zh/data.html",
-    "href": "zh/data.html",
-    "title": "数据检索与下载",
+    "objectID": "en/data.html",
+    "href": "en/data.html",
+    "title": "Data Access",
     "section": "",
-    "text": "当前版本提供样本数据预览和申请获取说明。"
+    "text": "Providing sample data previews and instructions for requesting access to the full database."
   },
   {
-    "objectID": "zh/data.html#数据预览",
-    "href": "zh/data.html#数据预览",
-    "title": "数据检索与下载",
-    "section": "数据预览",
-    "text": "数据预览\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n省份\n城市/地区\n县级单位\n行政区划代码\n是否有地方志记录\n土改时行政区类型\n是否经历土地改革\n土地改革阶段\n土地占有信息类型\n土地占有信息文字或表格类型\n土地占有信息（文字或表格）土改前/土改后\n土地占有信息是全县范围还是典型地区\n土改前总户数\n土改前总人口\n土改前全县总人数单位\n土改前全县土地总面积\n土改前全县土地总面积单位\n土改前全县人均土地面积\n土改前地主户数\n土改前地主户数占全县比重(单位：%)\n土改前地主人数\n土改前地主人数占全县比重(单位：%)\n土改前地主土地面积\n土改前地主土地面积占全县比重(单位：%)\n土改前地主户均土地面积\n土改前地主人均土地面积\n土改前富农户数\n…\n土改后总户数\n土改后总人口\n土改后全县总人数单位\n土改后全县土地总面积\n土改后全县土地总面积单位\n土改后全县人均土地面积\n…\n没征收土地总面积\n没征收土地总面积单位\n…\n\n\n\n\n福建省\n三明市\n清流县\n350423\n县志\n农村\n是\n土地改革法颁布后（1950以后）\n表格\n土改前后土地占有情况表\n土改前后都有\n全县(市)\n17503\n61616\n人\n212878.11\n亩\n3.45\n635\n–\n3277\n–\n22294\n–\n–\n6.8\n153\n…\n17503\n61616\n人\n211877.58\n亩\n3.44\n…\n112558.58\n亩\n…\n\n\n山东省\n淄博市\n沂源县\n370323\n县志\n农村\n是\n《中国土地法大纲》颁布后（1947年10月-1949年12月）\n文字\n土改前土地情况调查表\n只有土改前\n全县(市)\n49135\n204793\n人\n495739\n亩\n–\n1118\n–\n6554\n–\n88948\n–\n–\n13.57\n1716\n…\n–\n–\n–\n–\n–\n–\n…\n10103\n亩\n…\n\n\n广东省\n茂名市\n高州县\n440981\n县志\n农村\n是\n土地改革法颁布后（1950以后）\n表格\n土改前后土改占有情况表\n土改前后都有\n全县(市)\n182387\n806267\n人\n1066294\n亩\n–\n5855\n3.21%\n30316\n3.76%\n268173\n25.15%\n–\n–\n3502\n…\n182387\n806267\n人\n1066295\n亩\n–\n…\n–\n–\n…\n\n\n北京市\n北京市\n丰台区\n110606\n县志\n郊区\n是\n《中国土地法大纲》颁布后（1947年10月-1949年12月）\n文字+表格\n土改前后土改占有情况表\n土改前后都有\n全县(市)\n36336\n156743\n人\n308340\n亩\n2\n1186\n3.20%\n7067\n4.50%\n86243\n27.90%\n–\n12\n858\n…\n36336\n156743\n人\n308340\n亩\n2\n…\n45005.87\n亩\n…\n\n\n\n\n\n下载样本 CSV 提交完整数据申请"
+    "objectID": "en/data.html#sample-data-preview",
+    "href": "en/data.html#sample-data-preview",
+    "title": "Data Access",
+    "section": "Sample Data Preview",
+    "text": "Sample Data Preview\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProvince\nCity/Region\nCounty-level Unit\nAdministrative Code\nGazetteer Record Availability\nAdministrative Type During Land Reform\nExperienced Land Reform\nLand Reform Stage\nLand Ownership Information Type\nLand Ownership Information Source Type\nLand Ownership Information Coverage Before/After Reform\nCoverage Scope of Land Ownership Information\nTotal Households Before Land Reform\nTotal Population Before Land Reform\nPopulation Unit Before Land Reform\nTotal Land Area Before Land Reform\nLand Area Unit Before Land Reform\nAverage Land Area per Person Before Land Reform\nLandlord Households Before Land Reform\nShare of Landlord Households Before Land Reform (%)\nLandlord Population Before Land Reform\nShare of Landlord Population Before Land Reform (%)\nLandlord Land Area Before Land Reform\nShare of Landlord Land Area Before Land Reform (%)\nAverage Land Area per Landlord Household Before Land Reform\nAverage Land Area per Landlord Person Before Land Reform\nRich Peasant Households Before Land Reform\n…\nTotal Households After Land Reform\nTotal Population After Land Reform\nPopulation Unit After Land Reform\nTotal Land Area After Land Reform\nLand Area Unit After Land Reform\nAverage Land Area per Person After Land Reform\n…\nTotal Confiscated Land Area\nConfiscated Land Area Unit\n\n\n\n\nFujian Province\nSanming City\nQingliu County\n350423\nCounty Gazetteer\nRural Area\nYes\nAfter the promulgation of the Land Reform Law (1950 onward)\nTable\nLand Ownership Table Before and After Land Reform\nAvailable for both before and after reform\nEntire County\n17503\n61616\nPerson\n212878.11\nmu\n3.45\n635\n–\n3277\n–\n22294\n–\n–\n6.8\n153\n…\n17503\n61616\nPerson\n211877.58\nmu\n3.44\n…\n112558.58\nmu\n\n\nShandong Province\nZibo City\nYiyuan County\n370323\nCounty Gazetteer\nRural Area\nYes\nAfter the publication of the Outline Land Law of China (October 1947–December 1949)\nText\nPre-land-reform Land Survey Table\nAvailable only before reform\nEntire County\n49135\n204793\nPerson\n495739\nmu\n–\n1118\n–\n6554\n–\n88948\n–\n–\n13.57\n1716\n…\n–\n–\n–\n–\n–\n–\n…\n10103\nmu\n\n\nGuangdong Province\nMaoming City\nGaozhou County\n440981\nCounty Gazetteer\nRural Area\nYes\nAfter the promulgation of the Land Reform Law (1950 onward)\nTable\nLand Ownership Table Before and After Land Reform\nAvailable for both before and after reform\nEntire County\n182387\n806267\nPerson\n1066294\nmu\n–\n5855\n3.21%\n30316\n3.76%\n268173\n25.15%\n–\n–\n3502\n…\n182387\n806267\nPerson\n1066295\nmu\n–\n…\n–\n–\n\n\nBeijing Municipality\nBeijing Municipality\nFengtai District\n110606\nCounty Gazetteer\nSuburban Area\nYes\nAfter the publication of the Outline Land Law of China (October 1947–December 1949)\nText + Table\nLand Ownership Table Before and After Land Reform\nAvailable for both before and after reform\nEntire County/District\n36336\n156743\nPerson\n308340\nmu\n2\n1186\n3.20%\n7067\n4.50%\n86243\n27.90%\n–\n12\n858\n…\n36336\n156743\nPerson\n308340\nmu\n2\n…\n45005.87\nmu\n\n\n\n\n\nDownload Sample CSV Request Full Database Access"
   },
   {
-    "objectID": "zh/faq.html",
-    "href": "zh/faq.html",
-    "title": "常见问题",
+    "objectID": "en/faq.html",
+    "href": "en/faq.html",
+    "title": "FAQ",
     "section": "",
-    "text": "常见问题\n关于行政区划、资料来源、缺失值、统计范围、开放方式与错误反馈的常见问题与说明。\n\n\n\n\n为什么采用 2002 年行政区划？＋\n\n\n土地改革时期（1946-1953）与当前行政区划存在较大差异，大量县级行政单位在后续几十年经历了撤县设区、地区改市、县级市设立、行政区划调整等变化。\n为保证数据库具有统一的空间识别标准，并便于现代GIS系统和其他公开数据库进行匹配，本数据库统一采用2002年行政区划代码作为标准编码，同时保留地方志原始行政区名称，并建立历史行政区与2002年行政区划之间的对应关系。\n\n\n\n\n同一地区存在多个版本地方志怎么办？＋\n\n\n优先采用信息更完整、正式出版的地方志，并结合多个版本及其他史料交叉核对。存在差异时，结合原文、上下文和相关资料综合判断。\n\n\n\n\n为什么有些地区没有数据？＋\n\n\n可能因为地方志尚未公开或无法获取、未记载土地改革内容，或只有文字描述而缺乏可量化统计。\n\n\n\n\n为什么有些变量存在缺失值？＋\n\n\n不同地区记录内容和统计口径存在差异。部分变量可能未被记录或不存在对应数据。具体缺失值编码、空值定义和变量适用范围应参阅变量使用说明书与数据清洗说明书。\n\n\n\n\n如何区分原始数据和整理数据？＋\n\n\n数据库尽可能保留地方志原始信息，同时依据统一变量定义进行标准化整理。对于经过统一计算、归类、换算或编码的数据会在文档和变量字典中标识说明。\n\n\n\n\n为什么有些地方没有土地改革？＋\n\n\n部分城市中心城区在土地改革时期农业人口较少，未单独开展农村土地改革，因此相关变量记录为“否”。\n\n\n\n\n全县统计和典型乡村有什么区别？＋\n\n\n部分地方志仅公布典型乡（村）调查数据，而非全县统计结果。数据库会保留统计范围标记，使用者应根据研究目的进行筛选。\n\n\n\n\n为什么暂未包含西藏地区？＋\n\n\n西藏民主改革的时间、政策背景、实施方式和统计口径具有特殊性，与全国多数地区的土地改革框架难以直接对应。\n\n\n\n\n如何反馈数据问题？＋\n\n\n如果您发现数据错误、地方志引用问题或有其他建议，可通过团队联系页面提交反馈。项目组将在核实后修订，并会在后续版本更新日志中说明相关修改。"
+    "text": "Frequently Asked Questions\nFrequently asked questions regarding administrative divisions, data sources, missing values, statistical coverage, access policies, and data feedback.\n\n\n\n\nWhy does the database use the 2002 administrative division system?＋\n\n\nAdministrative divisions during the land reform period (1946–1953) differ substantially from current administrative boundaries. Many county-level administrative units underwent later changes, including county-to-district reforms, prefecture-to-city transformations, and other administrative adjustments.\nTo provide a unified spatial identification standard and facilitate integration with modern GIS systems and other public databases, this project adopts the 2002 administrative division codes as the standard geographic coding system. Original administrative names recorded in local gazetteers are also preserved, and historical administrative units are linked to the corresponding 2002 administrative divisions.\n\n\n\n\nHow are multiple versions of local gazetteers for the same region handled?＋\n\n\nThe database prioritizes officially published gazetteers with more complete information and conducts cross-validation using multiple versions and other historical sources. When differences exist, the project evaluates the original text, contextual information, and related materials to determine the appropriate interpretation.\n\n\n\n\nWhy are some regions missing data?＋\n\n\nMissing data may result from unavailable or unpublished local gazetteers, the absence of land reform records in available materials, or the presence of only qualitative descriptions without quantifiable statistics.\n\n\n\n\nWhy do some variables contain missing values?＋\n\n\nHistorical records differ across regions in terms of content and statistical standards. Some variables may not have been recorded or may not have corresponding information in the original sources.\nDetailed information on missing value coding, definitions of empty values, and variable applicability can be found in the codebook and data cleaning documentation.\n\n\n\n\nHow can original data be distinguished from processed data?＋\n\n\nThe database preserves original information from local gazetteers whenever possible while applying standardized variable definitions for data organization.\nData that have undergone calculation, classification, conversion, or coding procedures are documented and identified in the documentation and codebook.\n\n\n\n\nWhy do some regions not have land reform records?＋\n\n\nSome urban central areas had relatively small agricultural populations during the land reform period and did not conduct separate rural land reform programs. Therefore, relevant variables are recorded as “No.”\n\n\n\n\nWhat is the difference between county-level statistics and representative village-level data?＋\n\n\nSome local gazetteers only report survey data from representative villages or townships rather than county-wide statistics.\nThe database preserves indicators of statistical coverage, and users should select appropriate observations according to their research objectives.\n\n\n\n\nWhy is Tibet currently not included?＋\n\n\nThe timing, policy context, implementation process, and statistical framework of Tibet’s democratic reform differ significantly from land reform processes in most other regions of China. Therefore, the relevant data cannot be directly incorporated into the current land reform framework.\n\n\n\n\nHow can data issues be reported?＋\n\n\nIf users identify data errors, issues with gazetteer references, or have other suggestions, they may submit feedback through the project contact page.\nThe project team will review submitted information and document confirmed revisions in future version updates."
   },
   {
-    "objectID": "zh/methodology.html",
-    "href": "zh/methodology.html",
-    "title": "数据来源与方法",
+    "objectID": "en/methodology.html",
+    "href": "en/methodology.html",
+    "title": "Data Sources and Methods",
     "section": "",
-    "text": "说明地方志文献基础、数据收集范围、整理流程和资料完备性。"
+    "text": "Describing the historical sources, data coverage, processing procedures, and documentation of data completeness."
   },
   {
-    "objectID": "zh/methodology.html#sources",
-    "href": "zh/methodology.html#sources",
-    "title": "数据来源与方法",
-    "section": "文献基础与主要来源",
-    "text": "文献基础与主要来源\n数据库以全国新修地方志为主要来源，同时结合专题志和其他公开历史资料，对土地改革相关信息进行系统整理和标准化录入。\n地方志作为地方政府组织编纂的重要官方文献，具有系统性、连续性、权威性和地域性等特点，是研究中国地方经济社会发展和制度变迁的重要历史资料。本数据库主要利用地方志中关于农业、土地、政治、经济等章节所记录的土地改革信息，重建县级土地改革数据。\n\n县志、市志、地区志、省志\n农业志、土地志、经济志、政治志等专题志\n其他公开历史资料，用于交叉核对与补充验证"
+    "objectID": "en/methodology.html#sources",
+    "href": "en/methodology.html#sources",
+    "title": "Data Sources and Methods",
+    "section": "Historical Sources and Primary Materials",
+    "text": "Historical Sources and Primary Materials\nThe database primarily draws on nationwide newly compiled local gazetteers, supplemented by specialized gazetteers and other publicly available historical materials. Information related to land reform is systematically extracted, organized, and standardized.\nLocal gazetteers are important historical documents compiled under the organization of local governments. They provide systematic records of regional economic, social, political, and historical development, and preserve extensive official information on land reform implementation, class classification, land ownership, allocation of productive assets, and property redistribution.\nThis database utilizes land reform-related records from agricultural, land, political, economic, and other relevant sections of local gazetteers to reconstruct county-level land reform data.\nMain source types include:\n\nCounty, municipal, prefectural, and provincial gazetteers\nSpecialized gazetteers on agriculture, land, economy, politics, and related topics\nOther publicly available historical materials used for cross-validation and supplementary verification"
   },
   {
-    "objectID": "zh/methodology.html#range",
-    "href": "zh/methodology.html#range",
-    "title": "数据来源与方法",
-    "section": "数据收集范围",
-    "text": "数据收集范围\n核心资料为 20 世纪 80-90 年代出版的第一批新修地方志，重点记录 1949 年前后及改革开放初期情况，较完整地保存了土地改革时期的大量官方统计资料；2000 年以后出版的第二批新修地方志主要作为补充资料使用。"
+    "objectID": "en/methodology.html#range",
+    "href": "en/methodology.html#range",
+    "title": "Data Sources and Methods",
+    "section": "Data Coverage",
+    "text": "Data Coverage\nThe core materials consist of the first round of newly compiled local gazetteers published mainly during the 1980s and 1990s. These sources provide relatively comprehensive official records concerning the period around 1949 and the early stage of reform and opening-up, including extensive statistical information related to land reform.\nThe second round of newly compiled local gazetteers published after 2000 is mainly used as supplementary material."
   },
   {
-    "objectID": "zh/methodology.html#examples",
-    "href": "zh/methodology.html#examples",
-    "title": "数据来源与方法",
-    "section": "地方志原始资料示例",
-    "text": "地方志原始资料示例\n数据库中的土地改革信息主要来源于地方志中的文字记载和统计表格。为展示原始资料与数据库变量之间的对应关系，以下展示部分地方志原始资料示例，包括土地改革相关章节文字记录和统计表格。\n\n土地改革统计表\n\n地方志中保存了大量土地改革时期的统计资料，包括阶级户数、人口、土地面积、土地占有及分配情况等信息。项目根据统一变量定义，对相关字段进行提取、整理和标准化编码。\n\n\n土地改革文字记载\n\n除统计表格外，地方志中还包含大量关于土地改革过程、阶级划分、政策实施等方面的文字描述。项目通过人工识别和编码，将相关信息转化为结构化变量。"
+    "objectID": "en/methodology.html#examples",
+    "href": "en/methodology.html#examples",
+    "title": "Data Sources and Methods",
+    "section": "Examples of Original Gazetteer Materials",
+    "text": "Examples of Original Gazetteer Materials\nLand reform information in the database is primarily extracted from textual descriptions and statistical tables contained in local gazetteers. To demonstrate the relationship between original historical materials and database variables, this section presents examples of original gazetteer records, including land reform-related textual descriptions and statistical tables.\n\nLand Reform Statistical Tables\n\nLocal gazetteers preserve extensive statistical information from the land reform period, including the number of households and population by social class, land area, land ownership patterns, and land redistribution outcomes.\nBased on unified variable definitions, the project extracts relevant information from these materials and transforms them into standardized and structured database variables.\n\n\nTextual Records on Land Reform\n\nIn addition to statistical tables, local gazetteers contain detailed textual descriptions of land reform processes, class classification, and policy implementation.\nThrough manual identification, coding, and standardization, these qualitative records are transformed into structured variables for quantitative analysis."
   },
   {
-    "objectID": "zh/methodology.html#workflow",
-    "href": "zh/methodology.html#workflow",
-    "title": "数据来源与方法",
-    "section": "数据收集流程",
-    "text": "数据收集流程\n\n\n地方志收集\n\n\n↓\n\n\n确认行政区划\n\n\n↓\n\n\n确定土地改革章节\n\n\n↓\n\n\n识别数据类型\n\n\n↓\n\n\n数据录入\n\n\n↓\n\n\n数据校验\n\n\n↓\n\n\n标准化处理\n\n\n↓\n\n\n数据库发布"
+    "objectID": "en/methodology.html#workflow",
+    "href": "en/methodology.html#workflow",
+    "title": "Data Sources and Methods",
+    "section": "Data Collection Workflow",
+    "text": "Data Collection Workflow\n\n\nGazetteer Collection\n\n\n↓\n\n\nAdministrative Division Identification\n\n\n↓\n\n\nIdentification of Land Reform Sections\n\n\n↓\n\n\nData Type Classification\n\n\n↓\n\n\nData Entry\n\n\n↓\n\n\nData Verification\n\n\n↓\n\n\nStandardization\n\n\n↓\n\n\nDatabase Release"
   },
   {
-    "objectID": "zh/methodology.html#completeness",
-    "href": "zh/methodology.html#completeness",
-    "title": "数据来源与方法",
-    "section": "方志完备性说明",
-    "text": "方志完备性说明\n由于地方志编纂时间、地区历史情况及保存状况存在差异，不同地区土地改革资料的完整程度存在一定差别。\n\n\n\n第一类\n\n\n完整记录\n同时具有土改经历、阶级划分、土地占有、土地分配与生产资料信息。\n\n\n\n\n第二类\n\n\n部分记录\n具有部分土地改革文字描述或部分可量化信息。\n\n\n\n\n第三类\n\n\n资料缺失\n地方志未记载、相关章节缺失或资料暂不可获得。"
+    "objectID": "en/methodology.html#completeness",
+    "href": "en/methodology.html#completeness",
+    "title": "Data Sources and Methods",
+    "section": "Gazetteer Data Completeness",
+    "text": "Gazetteer Data Completeness\nDue to differences in compilation periods, regional historical conditions, and preservation status, the completeness of land reform records varies across regions.\n\n\n\nCategory 1\n\n\nComplete Records\nContains information on land reform experiences, class classification, land ownership, land redistribution, and productive assets.\n\n\n\n\nCategory 2\n\n\nPartial Records\nContains partial textual descriptions or some quantifiable information related to land reform.\n\n\n\n\nCategory 3\n\n\nMissing Records\nRelevant information is unavailable due to absent records, missing sections, or inaccessible materials."
   },
   {
-    "objectID": "zh/methodology.html#coverage",
-    "href": "zh/methodology.html#coverage",
-    "title": "数据来源与方法",
-    "section": "省份覆盖与行政区划",
-    "text": "省份覆盖与行政区划\n目前覆盖中国大陆 30 个省（自治区、直辖市），以县（区）级行政单元为基本整理对象，并结合历史行政区划调整进行统一编码。对于因行政区划调整形成的市辖区、地区改市等情况，数据库依据历史行政区划进行对应整理，以保证历史数据的一致性。"
+    "objectID": "en/methodology.html#coverage",
+    "href": "en/methodology.html#coverage",
+    "title": "Data Sources and Methods",
+    "section": "Provincial Coverage and Administrative",
+    "text": "Provincial Coverage and Administrative\nThe database currently covers 30 provinces, autonomous regions, and municipalities in mainland China. County-level administrative units are used as the basic observation units, with historical administrative adjustments incorporated into a unified coding system.\nFor administrative changes such as the transformation of prefectures into cities or the creation of new municipal districts, the database follows historical administrative boundaries to ensure consistency and comparability across time."
   }
 ]
