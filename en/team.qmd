@@ -1,0 +1,59 @@
+---
+title: "Collaboration and Contact"
+pagetitle: "Collaboration and Contact｜CGLRD"
+toc: false
+---
+
+::: {.page-hero}
+::: {.page-hero-inner}
+# Collaboration and Contact
+
+Providing channels for data access requests, academic collaboration, and feedback.
+:::
+:::
+
+::: {.team-content}
+
+## Academic Collaboration {.section-title}
+
+This database welcomes academic collaboration in areas including land reform, economic history, rural development, historical geography, and digital humanities.
+
+
+Potential collaboration includes:
+
+- Conducting research based on the database;
+- Improving variable design and database structure;
+- Providing feedback on data quality and potential improvements;
+- Sharing academic research outcomes.
+
+
+## Data Access Requests {.section-title}
+
+Researchers who wish to request access to the database should contact the project team.
+
+Please provide the following information:
+
+- Research objectives;
+- Scope of requested data usage;
+- Relevant variables or geographic areas;
+- Expected research outputs.
+
+## Feedback {.section-title #feedback}
+
+Users are welcome to provide feedback regarding:
+
+- Missing data;
+- Issues with variable definitions;
+- Coding errors;
+- Additional information from local gazetteer sources.
+
+Please contact the project team by email and provide relevant details.
+
+
+## Contact Information {.section-title}
+
+Email:
+
+**xxx@xxx.edu.cn**
+
+:::

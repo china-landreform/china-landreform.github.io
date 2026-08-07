@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets/data/**
+    - assets/images/**
+    - assets/js/**
+
+profile:
+  default: zh
+  group:
+    - [zh, en]
+
+website:
+  title: "China-Gazetteer-LandReform"
+  site-url: https://jael1030.github.io/China-Gazetteer-LandReform-Website/
+
+
+format:
+  html:
+    theme:
+      - litera
+      - styles.scss
+    toc: false
+    css: styles.css
+    include-after-body: assets/js/site.html
+    page-layout: full
+    title-block-banner: false
+    mainfont: "Source Sans 3"
+    monofont: "Source Code Pro"
+
+execute:
+  freeze: auto

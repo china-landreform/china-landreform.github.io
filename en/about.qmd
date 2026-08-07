@@ -1,0 +1,55 @@
+---
+title: "Overview"
+pagetitle: "Overview｜CGLRD"
+toc: true
+toc-depth: 2
+toc-location: right
+---
+
+::: {.page-hero}
+::: {.page-hero-inner}
+# Overview {.unnumbered .unlisted}
+
+Introducing the database background, objectives, current development status, and potential research applications.
+:::
+:::
+
+## Research Background {#background}
+
+Land reform was one of the most significant institutional transformations in twentieth-century China. It profoundly reshaped rural land institutions, social structures, agricultural production, and subsequent socialist transformation. In recent years, land reform and its long-term economic and social consequences have become important topics in economic history, political economy, and development economics.
+
+However, existing research has largely relied on provincial-level statistics, case studies, or limited regional datasets. A nationwide county-level database with consistent definitions and standardized measures remains limited.
+
+Chinese local gazetteers, compiled under the organization of local governments, provide systematic records of regional natural, economic, social, and historical development. In particular, they preserve extensive official records related to the implementation of land reform, class classification, land ownership, allocation of productive assets, and property redistribution.
+
+By transforming gazetteer materials into a standardized and digitized database, this project aims to preserve valuable historical records while providing a systematic, reliable, and quantifiable data foundation for research on China's land reform.
+
+## Objectives {#goal}
+
+Based on nationwide local gazetteer materials, this project constructs a standardized county-level database on China's land reform. Through unified data collection protocols, data processing procedures, and variable coding systems, information related to land reform recorded in local gazetteers is digitally organized and structured.
+
+The database aims to provide searchable, standardized, and quantifiable historical data infrastructure for research in economic history, regional comparison, and related interdisciplinary fields.
+
+
+::: {.note-box}
+**Current focus:** verification of existing data, supplementation of missing information, correction of errors, variable harmonization, and standardized database construction.
+:::
+
+## Research Applications {#applications}
+
+- Land reform and land redistribution studies
+- Institutional changes in land systems and rural property rights
+- Social stratification and class structure research
+- Agricultural economic history and rural development studies
+- Regional economic comparison and modern Chinese economic history
+- GIS-based spatial analysis, historical geography, and digital humanities research
+
+## Project Team {#team}
+
+### Principal Investigator
+
+**[Zhaopeng Qu](https://byelenin.github.io/){target="_blank"}**
+
+### Core Team
+
+### Contributors

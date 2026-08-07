@@ -1,0 +1,64 @@
+lang: zh-CN
+
+project:
+  render:
+    - index.qmd
+    - zh/*.qmd
+
+website:
+  description: "中国地方志土地改革数据库"
+
+  navbar:
+    title: "China-Gazetteer-LandReform"
+    logo-href: ../zh/index.html
+
+    left:
+      - text: "项目概况"
+        href: zh/about.qmd
+
+      - text: "数据来源与方法"
+        href: zh/methodology.qmd
+
+      - text: "核心指标与变量字典"
+        href: zh/codebook.qmd
+
+      - text: "数据检索与下载"
+        href: zh/data.qmd
+
+      - text: "文档与学术规范"
+        href: zh/documentation.qmd
+
+      - text: "常见问题"
+        href: zh/faq.qmd
+
+      - text: "团队联系"
+        href: zh/team.qmd
+
+    right:
+      - text: "中文"
+        href: zh/index.html
+
+      - text: "ENGLISH"
+        href: en/index.html
+
+  page-footer:
+    left: "© 2026 China Gazetteer Land Reform Database. All rights reserved."
+
+    center:
+      - text: "变量字典"
+        href: zh/codebook.qmd
+
+      - text: "数据申请"
+        href: zh/data.qmd
+
+      - text: "引用规范"
+        href: zh/documentation.qmd
+
+    right:
+      - text: "学术合作"
+        href: zh/team.qmd
+
+      - text: "问题反馈"
+        href: zh/team.qmd#feedback
+
+    background: dark

@@ -1,0 +1,33 @@
+---
+title: "Data Access"
+pagetitle: "Data Access｜CGLRD"
+toc: false
+---
+
+::: {.page-hero}
+::: {.page-hero-inner}
+# Data Access
+
+Providing sample data previews and instructions for requesting access to the full database.
+:::
+:::
+
+::: {.note-box}
+**Access Policy:** To ensure proper citation, long-term maintenance, and academic collaboration, the complete database is currently available through an access request process. The sample data below is provided for demonstration purposes only.
+:::
+
+## Sample Data Preview {.section-title}
+
+::: {.table-wrap .wide}
+| Province | City/Region | County-level Unit | Administrative Code | Gazetteer Record Availability | Administrative Type During Land Reform | Experienced Land Reform | Land Reform Stage | Land Ownership Information Type | Land Ownership Information Source Type | Land Ownership Information Coverage Before/After Reform | Coverage Scope of Land Ownership Information | Total Households Before Land Reform | Total Population Before Land Reform | Population Unit Before Land Reform | Total Land Area Before Land Reform | Land Area Unit Before Land Reform | Average Land Area per Person Before Land Reform | Landlord Households Before Land Reform | Share of Landlord Households Before Land Reform (%) | Landlord Population Before Land Reform | Share of Landlord Population Before Land Reform (%) | Landlord Land Area Before Land Reform | Share of Landlord Land Area Before Land Reform (%) | Average Land Area per Landlord Household Before Land Reform | Average Land Area per Landlord Person Before Land Reform | Rich Peasant Households Before Land Reform | ... | Total Households After Land Reform | Total Population After Land Reform | Population Unit After Land Reform | Total Land Area After Land Reform | Land Area Unit After Land Reform | Average Land Area per Person After Land Reform | ... | Total Confiscated Land Area | Confiscated Land Area Unit | ... |
+|------|-----------|-------------------|---------------------|-----------------------------|--------------------------------------|------------------------|-------------------|--------------------------------|------------------------------------|-----------------------------------------------|----------------------------------------------|---------------------------------|--------------------------------|---------------------------------|-------------------------------|--------------------------------|---------------------------------------|--------------------------------------|-----------------------------------------------|--------------------------------|---------------------------------------------|--------------------------------|------------------------------------------|-------------------------------------------|----------------------------------------|-----|-------------------------------|------------------------------|------------------------------|---------------------------|---------------------------|------------------------------------|-----|---------------------------|------------------------|-----|
+| Fujian Province | Sanming City | Qingliu County | 350423 | County Gazetteer | Rural Area | Yes | After the promulgation of the Land Reform Law (1950 onward) | Table | Land Ownership Table Before and After Land Reform | Available for both before and after reform | Entire County | 17503 | 61616 | Person | 212878.11 | mu | 3.45 | 635 | -- | 3277 | -- | 22294 | -- | -- | 6.8 | 153 | ... | 17503 | 61616 | Person | 211877.58 | mu | 3.44 | ... | 112558.58 | mu | ... |
+| Shandong Province | Zibo City | Yiyuan County | 370323 | County Gazetteer | Rural Area | Yes | After the publication of the Outline Land Law of China (October 1947–December 1949) | Text | Pre-land-reform Land Survey Table | Available only before reform | Entire County | 49135 | 204793 | Person | 495739 | mu | -- | 1118 | -- | 6554 | -- | 88948 | -- | -- | 13.57 | 1716 | ... | -- | -- | -- | -- | -- | -- | ... | 10103 | mu | ... |
+| Guangdong Province | Maoming City | Gaozhou County | 440981 | County Gazetteer | Rural Area | Yes | After the promulgation of the Land Reform Law (1950 onward) | Table | Land Ownership Table Before and After Land Reform | Available for both before and after reform | Entire County | 182387 | 806267 | Person | 1066294 | mu | -- | 5855 | 3.21% | 30316 | 3.76% | 268173 | 25.15% | -- | -- | 3502 | ... | 182387 | 806267 | Person | 1066295 | mu | -- | ... | -- | -- | ... |
+| Beijing Municipality | Beijing Municipality | Fengtai District | 110606 | County Gazetteer | Suburban Area | Yes | After the publication of the Outline Land Law of China (October 1947–December 1949) | Text + Table | Land Ownership Table Before and After Land Reform | Available for both before and after reform | Entire County/District | 36336 | 156743 | Person | 308340 | mu | 2 | 1186 | 3.20% | 7067 | 4.50% | 86243 | 27.90% | -- | 12 | 858 | ... | 36336 | 156743 | Person | 308340 | mu | 2 | ... | 45005.87 | mu | ... |
+:::
+
+::: {.btn-row}
+[Download Sample CSV](../assets/data/sample_dataset.csv){.btn .btn-primary download="sample_dataset.csv"}
+[Request Full Database Access](../en/team.qmd#feedback){.btn .btn-outline}
+:::

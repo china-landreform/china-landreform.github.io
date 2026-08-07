@@ -1,0 +1,146 @@
+---
+title: "Data Sources and Methods"
+pagetitle: "Data Sources and Methods｜CGLRD"
+toc: true
+toc-depth: 2
+toc-location: right
+---
+
+::: {.page-hero}
+::: {.page-hero-inner}
+# Data Sources and Methods {.unnumbered .unlisted}
+
+Describing the historical sources, data coverage, processing procedures, and documentation of data completeness.
+:::
+:::
+
+## Historical Sources and Primary Materials {#sources}
+
+The database primarily draws on nationwide newly compiled local gazetteers, supplemented by specialized gazetteers and other publicly available historical materials. Information related to land reform is systematically extracted, organized, and standardized.
+
+Local gazetteers are important historical documents compiled under the organization of local governments. They provide systematic records of regional economic, social, political, and historical development, and preserve extensive official information on land reform implementation, class classification, land ownership, allocation of productive assets, and property redistribution.
+
+This database utilizes land reform-related records from agricultural, land, political, economic, and other relevant sections of local gazetteers to reconstruct county-level land reform data.
+
+Main source types include:
+
+- County, municipal, prefectural, and provincial gazetteers
+- Specialized gazetteers on agriculture, land, economy, politics, and related topics
+- Other publicly available historical materials used for cross-validation and supplementary verification
+
+## Data Coverage {#range}
+
+The core materials consist of the first round of newly compiled local gazetteers published mainly during the 1980s and 1990s. These sources provide relatively comprehensive official records concerning the period around 1949 and the early stage of reform and opening-up, including extensive statistical information related to land reform.
+
+The second round of newly compiled local gazetteers published after 2000 is mainly used as supplementary material.
+
+## Examples of Original Gazetteer Materials {#examples}
+
+Land reform information in the database is primarily extracted from textual descriptions and statistical tables contained in local gazetteers. To demonstrate the relationship between original historical materials and database variables, this section presents examples of original gazetteer records, including land reform-related textual descriptions and statistical tables.
+
+### Land Reform Statistical Tables
+
+![](../assets/images/source_table_example.png)
+
+Local gazetteers preserve extensive statistical information from the land reform period, including the number of households and population by social class, land area, land ownership patterns, and land redistribution outcomes.
+
+Based on unified variable definitions, the project extracts relevant information from these materials and transforms them into standardized and structured database variables.
+
+### Textual Records on Land Reform
+
+![](../assets/images/source_text_example.png)
+
+In addition to statistical tables, local gazetteers contain detailed textual descriptions of land reform processes, class classification, and policy implementation.
+
+Through manual identification, coding, and standardization, these qualitative records are transformed into structured variables for quantitative analysis.
+
+
+## Data Collection Workflow {#workflow}
+
+::: {.process}
+::: {.process-step}
+Gazetteer Collection
+:::
+::: {.arrow}
+↓
+:::
+::: {.process-step}
+Administrative Division Identification
+:::
+::: {.arrow}
+↓
+:::
+::: {.process-step}
+Identification of Land Reform Sections
+:::
+::: {.arrow}
+↓
+:::
+::: {.process-step}
+Data Type Classification
+:::
+::: {.arrow}
+↓
+:::
+::: {.process-step}
+Data Entry
+:::
+::: {.arrow}
+↓
+:::
+::: {.process-step}
+Data Verification
+:::
+::: {.arrow}
+↓
+:::
+::: {.process-step}
+Standardization
+:::
+::: {.arrow}
+↓
+:::
+::: {.process-step}
+Database Release
+:::
+:::
+
+## Gazetteer Data Completeness {#completeness}
+
+Due to differences in compilation periods, regional historical conditions, and preservation status, the completeness of land reform records varies across regions.
+
+::: {.cards}
+::: {.card}
+::: {.badge-soft}
+Category 1
+:::
+
+### Complete Records
+
+Contains information on land reform experiences, class classification, land ownership, land redistribution, and productive assets.
+:::
+::: {.card}
+::: {.badge-soft}
+Category 2
+:::
+
+### Partial Records
+
+Contains partial textual descriptions or some quantifiable information related to land reform.
+:::
+::: {.card}
+::: {.badge-soft}
+Category 3
+:::
+
+### Missing Records
+
+Relevant information is unavailable due to absent records, missing sections, or inaccessible materials.
+:::
+:::
+
+## Provincial Coverage and Administrative {#coverage}
+
+The database currently covers 30 provinces, autonomous regions, and municipalities in mainland China. County-level administrative units are used as the basic observation units, with historical administrative adjustments incorporated into a unified coding system.
+
+For administrative changes such as the transformation of prefectures into cities or the creation of new municipal districts, the database follows historical administrative boundaries to ensure consistency and comparability across time.

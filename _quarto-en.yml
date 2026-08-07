@@ -1,0 +1,64 @@
+lang: en-US
+
+project:
+  render:
+    - index.qmd
+    - en/*.qmd
+
+website:
+  description: "China Gazetteer Land Reform Database"
+
+  navbar:
+    title: "China-Gazetteer-LandReform"
+    logo-href: ../en/index.html
+
+    left:
+      - text: "Overview"
+        href: en/about.qmd
+
+      - text: "Sources & Methodology"
+        href: en/methodology.qmd
+
+      - text: "Indicators & Codebook"
+        href: en/codebook.qmd
+
+      - text: "Data Access"
+        href: en/data.qmd
+
+      - text: "Documentation"
+        href: en/documentation.qmd
+
+      - text: "FAQ"
+        href: en/faq.qmd
+
+      - text: "Contact"
+        href: en/team.qmd
+
+    right:
+      - text: "中文"
+        href: zh/index.html
+
+      - text: "ENGLISH"
+        href: en/index.html
+
+  page-footer:
+    left: "© 2026 China Gazetteer Land Reform Database. All rights reserved."
+
+    center:
+      - text: "Codebook"
+        href: en/codebook.qmd
+
+      - text: "Data Access"
+        href: en/data.qmd
+
+      - text: "Citation Guide"
+        href: en/documentation.qmd
+
+    right:
+      - text: "Academic Collaboration"
+        href: en/team.qmd
+
+      - text: "Feedback"
+        href: en/team.qmd#feedback
+
+    background: dark

@@ -1,0 +1,64 @@
+---
+title: "团队与联系"
+pagetitle: "团队与联系｜CGLRD"
+toc: false
+---
+
+::: {.page-hero}
+::: {.page-hero-inner}
+# 团队与联系
+:::
+:::
+
+::: {.cards}
+::: {.card}
+### 项目负责人
+
+负责总体研究设计、数据规范与学术合作。
+:::
+::: {.card}
+### 数据团队
+
+承担地方志收集、数据录入、清洗、复核、编码和文档维护。
+:::
+:::
+
+## 合作与问题反馈 {.section-title #feedback}
+
+```{=html}
+<div class="panel">
+  <form id="feedback-form">
+    <div class="form-grid">
+      <label class="form-field">
+        <span>姓名</span>
+        <input required name="name">
+      </label>
+      <label class="form-field">
+        <span>邮箱</span>
+        <input required type="email" name="email">
+      </label>
+      <label class="form-field">
+        <span>问题类型</span>
+        <select name="type">
+          <option>数据勘误</option>
+          <option>数据申请</option>
+          <option>学术合作</option>
+          <option>其他</option>
+        </select>
+      </label>
+      <label class="form-field">
+        <span>涉及地区 / 变量</span>
+        <input name="subject">
+      </label>
+      <label class="form-field full">
+        <span>详细说明</span>
+        <textarea required name="message"></textarea>
+      </label>
+      <div class="form-field full">
+        <button class="btn btn-primary" type="submit">提交</button>
+        <div id="form-msg" style="color:#0c766f;font-weight:700;margin-top:0.5rem"></div>
+      </div>
+    </div>
+  </form>
+</div>
+```

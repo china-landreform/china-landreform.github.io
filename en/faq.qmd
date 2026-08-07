@@ -1,0 +1,86 @@
+---
+title: "FAQ"
+pagetitle: "FAQ｜CGLRD"
+toc: false
+---
+
+::: {.page-hero}
+::: {.page-hero-inner}
+# Frequently Asked Questions
+
+Frequently asked questions regarding administrative divisions, data sources, missing values, statistical coverage, access policies, and data feedback.
+:::
+:::
+
+::: {.accordion-item}
+<button type="button">Why does the database use the 2002 administrative division system?<span>＋</span></button>
+::: {.answer}
+Administrative divisions during the land reform period (1946–1953) differ substantially from current administrative boundaries. Many county-level administrative units underwent later changes, including county-to-district reforms, prefecture-to-city transformations, and other administrative adjustments.
+
+To provide a unified spatial identification standard and facilitate integration with modern GIS systems and other public databases, this project adopts the 2002 administrative division codes as the standard geographic coding system. Original administrative names recorded in local gazetteers are also preserved, and historical administrative units are linked to the corresponding 2002 administrative divisions.
+:::
+:::
+
+::: {.accordion-item}
+<button type="button">How are multiple versions of local gazetteers for the same region handled?<span>＋</span></button>
+::: {.answer}
+The database prioritizes officially published gazetteers with more complete information and conducts cross-validation using multiple versions and other historical sources. When differences exist, the project evaluates the original text, contextual information, and related materials to determine the appropriate interpretation.
+:::
+:::
+
+::: {.accordion-item}
+<button type="button">Why are some regions missing data?<span>＋</span></button>
+::: {.answer}
+Missing data may result from unavailable or unpublished local gazetteers, the absence of land reform records in available materials, or the presence of only qualitative descriptions without quantifiable statistics.
+:::
+:::
+
+::: {.accordion-item}
+<button type="button">Why do some variables contain missing values?<span>＋</span></button>
+::: {.answer}
+Historical records differ across regions in terms of content and statistical standards. Some variables may not have been recorded or may not have corresponding information in the original sources.
+
+Detailed information on missing value coding, definitions of empty values, and variable applicability can be found in the codebook and data cleaning documentation.
+:::
+:::
+
+::: {.accordion-item}
+<button type="button">How can original data be distinguished from processed data?<span>＋</span></button>
+::: {.answer}
+The database preserves original information from local gazetteers whenever possible while applying standardized variable definitions for data organization.
+
+Data that have undergone calculation, classification, conversion, or coding procedures are documented and identified in the documentation and codebook.
+:::
+:::
+
+::: {.accordion-item}
+<button type="button">Why do some regions not have land reform records?<span>＋</span></button>
+::: {.answer}
+Some urban central areas had relatively small agricultural populations during the land reform period and did not conduct separate rural land reform programs. Therefore, relevant variables are recorded as "No."
+:::
+:::
+
+::: {.accordion-item}
+<button type="button">What is the difference between county-level statistics and representative village-level data?<span>＋</span></button>
+::: {.answer}
+Some local gazetteers only report survey data from representative villages or townships rather than county-wide statistics.
+
+The database preserves indicators of statistical coverage, and users should select appropriate observations according to their research objectives.
+:::
+:::
+
+::: {.accordion-item}
+<button type="button">Why is Tibet currently not included?<span>＋</span></button>
+::: {.answer}
+The timing, policy context, implementation process, and statistical framework of Tibet's democratic reform differ significantly from land reform processes in most other regions of China. Therefore, the relevant data cannot be directly incorporated into the current land reform framework.
+:::
+:::
+
+::: {.accordion-item}
+<button type="button">How can data issues be reported?<span>＋</span></button>
+::: {.answer}
+If users identify data errors, issues with gazetteer references, or have other suggestions, they may submit feedback through the project contact page.
+
+The project team will review submitted information and document confirmed revisions in future version updates.
+:::
+:::

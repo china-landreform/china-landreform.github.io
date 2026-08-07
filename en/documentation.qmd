@@ -1,0 +1,38 @@
+---
+title: "Documentation and Usage Guidelines"
+pagetitle: "Documentation and Usage Guidelines｜CGLRD"
+toc: true
+toc-depth: 2
+toc-location: right
+---
+
+::: {.page-hero}
+::: {.page-hero-inner}
+# Documentation and Usage Guidelines {.unnumbered .unlisted}
+
+Providing guidance on data interpretation, usage agreements, citation formats, and version management.
+:::
+:::
+
+## User Guide {#guide}
+
+- Users should read the codebook and data cleaning documentation before using the database.
+- Users should distinguish between county-level statistical records and representative village-level surveys.
+- Users should maintain the distinction between original values, standardized values, and estimated values.
+
+## Data Use Agreement {#agreement}
+
+- This database is primarily intended for academic research, teaching, and non-commercial purposes. Users should acknowledge the data source and cite the database according to the recommended citation format.
+
+- Without authorization from the project team, users may not publicly distribute, resell, or use the complete database files for commercial purposes.
+
+- Research outputs based on this database should clearly acknowledge the data source in academic papers, reports, or other publicly available materials.
+
+- The database is continuously updated and improved. Users are welcome to contact the project team regarding potential errors, questions, or suggestions.
+
+## Citation Guidelines {#citation}
+
+::: {.note-box}
+**Recommended citation format：**\
+China Gazetteer Land Reform Database Project Team. *China Gazetteer Land Reform Database (Version 1.0)* [DB/OL]. Project website, 2026.
+:::

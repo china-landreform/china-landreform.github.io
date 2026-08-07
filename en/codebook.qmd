@@ -1,0 +1,65 @@
+---
+title: "Codebook"
+pagetitle: "Codebook｜CGLRD"
+toc: false
+---
+
+::: {.page-hero}
+::: {.page-hero-inner}
+# Codebook
+
+Describing variable definitions, data coverage, measurement units, coding rules, and derived variables.
+:::
+:::
+
+::: {.cards .codebook-cards}
+::: {.card}
+### Administrative Indicators
+
+Uses the 2002 administrative division codes (GB/T 2260-2002) as the unified geographic coding standard, while preserving original place names recorded in local gazetteers.
+:::
+::: {.card}
+### Historical Transformation Indicators
+
+Includes indicators identifying whether regions experienced land reform, socialist transformation, and different historical stages of revolutionary change.
+:::
+::: {.card}
+### Data Coverage Indicators
+
+Distinguishes between county-level records, representative villages, partial samples, as well as tabular data and textual descriptions.
+:::
+::: {.card}
+### Core Economic Indicators Before and After Land Reform
+
+Includes household numbers, population, land area, average land area per household and person, proportions, and measurement units by social class.
+:::
+::: {.card}
+### Redistribution and Confiscation Indicators
+
+Includes information on the confiscation and redistribution of land, housing, agricultural tools, livestock, grain, and other productive assets and properties.
+:::
+:::
+
+## Codebook Examples {.section-title}
+
+::: {.table-wrap}
+| Variable | Definition | Type | Example | Description |
+|--------|----------|------|------|------|
+| prov | Province | String | Sichuan Province | Name of the provincial-level administrative unit |
+| county_code | County/District Code | String | 510123 | Unified spatial identification code for county-level units |
+| yesno_gazette_dummy | Availability of Gazetteer Records | String | Available | Indicates whether usable local gazetteer materials were identified for the region |
+| tables_types_label | Table or Text Type | String | Pre-land-reform Survey Table | Identifies the type of source material, such as pre-land-reform survey tables, land ownership tables before/after reform, and class composition tables |
+| pre_total_hh | Total Households Before Land Reform | Numeric | 42631 | Total number of households within the statistical scope before land reform |
+| pre_total_area | Total Land Area Before Land Reform | Numeric | 652318.5 | Total land area within the statistical scope before land reform |
+
+:::
+
+::: {.download-block}
+### Download Full Codebook
+
+The current version is not yet available for download. The official codebook file will be released after completion of data documentation and verification.
+
+::: {.btn-row}
+[CSV Codebook (Coming Soon)](#){.btn .btn-primary .disabled-link aria-disabled="true"}
+:::
+:::

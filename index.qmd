@@ -1,0 +1,14 @@
+---
+title: "China Gazetteer Land Reform Database"
+pagetitle: "China Gazetteer Land Reform Database"
+navbar: false
+page-footer: false
+search: false
+toc: false
+---
+
+<script>
+(function () {
+  window.location.replace("./zh/index.html");
+})();
+</script>
