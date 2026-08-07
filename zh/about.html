@@ -2,23 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" xml:lang="zh-CN"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>项目概况｜CGLRD – China-Gazetteer-LandReform</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -42,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-6558c0cc9fff853e19f1c8583c879bfc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f04815106cae3a9fbc06cdb7d722a706.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -149,7 +143,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">该页面内容</h2>
    
   <ul class="collapse">
-  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">研究背景</a></li>
+  <li><a href="#项目概况" id="toc-项目概况" class="nav-link active" data-scroll-target="#项目概况">项目概况</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">研究背景</a></li>
   <li><a href="#goal" id="toc-goal" class="nav-link" data-scroll-target="#goal">项目目标</a></li>
   <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">数据适用方向</a></li>
   <li><a href="#team" id="toc-team" class="nav-link" data-scroll-target="#team">项目团队</a></li>
@@ -179,8 +174,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="page-hero">
-<section id="项目概况" class="level1 unnumbered unlisted page-hero-inner">
-<h1 class="unnumbered unlisted">项目概况</h1>
+<section id="项目概况" class="level1 page-hero-inner">
+<h1>项目概况</h1>
 <p>介绍数据库建设背景、目标、现阶段工作和适用研究方向。</p>
 </section>
 </div>
@@ -211,13 +206,20 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="team">项目团队</h2>
 <section id="项目负责人" class="level3">
 <h3 class="anchored" data-anchor-id="项目负责人">项目负责人</h3>
-<p><strong><a href="https://byelenin.github.io/" target="_blank">曲兆鹏</a></strong></p>
+<p><strong><a href="https://byelenin.github.io/zh/index_zh.html" target="_blank">曲兆鹏</a></strong></p>
 </section>
-<section id="核心团队" class="level3">
-<h3 class="anchored" data-anchor-id="核心团队">核心团队</h3>
+<section id="核心团队以姓名首字母排序" class="level3">
+<h3 class="anchored" data-anchor-id="核心团队以姓名首字母排序">核心团队(以姓名首字母排序)</h3>
+<p><strong><a href="https://leijinsheng.github.io/" target="_blank">陈奕蒙</a></strong></p>
+<p><strong><a href="https://chenzhe.github.io/" target="_blank">劳伟健</a></strong></p>
+<p><strong><a href="https://huangdanyang.github.io/" target="_blank">许诺</a></strong></p>
+<p><strong><a href="https://fanxw.github.io/" target="_blank">王孟烨</a></strong></p>
+<p><strong><a href="https://guojy.github.io/" target="_blank">张惟轩</a></strong></p>
+<p><strong><a href="https://guojy.github.io/" target="_blank">张英杰</a></strong></p>
 </section>
 <section id="项目贡献者" class="level3">
 <h3 class="anchored" data-anchor-id="项目贡献者">项目贡献者</h3>
+<p>感谢如下同学为项目建设做出的贡献</p>
 
 
 </section>
@@ -276,14 +278,13 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
