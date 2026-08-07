@@ -1,0 +1,764 @@
+/* CGLRD — Litera / academic classic overlay */
+
+:root {
+  --ink: #212529;
+  --ink-soft: #495057;
+  --muted: #6c757d;
+  --line: #dee2e6;
+  --soft: #f8f9fa;
+  --accent: #4f8065;
+  --accent-dark: #28594a;
+  --hero: #092b1f;
+  --hero-2: #225541;
+  --white: #fff;
+  --shadow: 0 8px 24px rgba(33, 37, 41, 0.06);
+  --radius: 8px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family:
+    "Source Sans 3",
+    "PingFang SC",
+    "Microsoft YaHei",
+    "Noto Sans SC",
+    system-ui,
+    sans-serif;
+  color: var(--ink);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* —— Navbar —— */
+.navbar {
+  background: rgba(255, 255, 255, 0.97) !important;
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+  padding: 0.35rem 0;
+}
+
+.navbar .navbar-brand {
+  font-family: "Source Serif 4", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--ink) !important;
+}
+
+.navbar .nav-link {
+  font-family: "Source Sans 3", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  font-weight: 500;
+  font-size: 0.98rem;
+  color: var(--ink-soft) !important;
+  border-bottom: 2px solid transparent;
+  padding: 1rem 0.55rem 0.85rem !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--accent) !important;
+  border-bottom-color: var(--accent);
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+/* —— Footer —— */
+.nav-footer {
+  background: var(--hero) !important;
+  color: #e9ecef !important;
+  border-top: 0 !important;
+  padding: 1.75rem 0;
+  font-size: 0.95rem;
+}
+
+.nav-footer a {
+  color: #ced4da !important;
+}
+
+.nav-footer a:hover {
+  color: #fff !important;
+}
+
+/* —— Layout helpers —— */
+.container-narrow {
+  width: min(1080px, calc(100% - 40px));
+  margin-inline: auto;
+}
+
+/* —— Hero (home) —— */
+.hero {
+  margin: -1rem -0.75rem 0;
+  background: linear-gradient(160deg, var(--hero) 0%, var(--hero-2) 100%);
+  color: white;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.hero-inner {
+  position: relative;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 3.25rem 2rem 3rem;
+  min-height: 210px;
+}
+
+.hero .hero-inner h1,
+.hero section.hero-inner h1 {
+  font-family: "Source Serif 4", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Georgia, serif;
+  font-size: clamp(2rem, 4.2vw, 2.85rem);
+  font-weight: 600;
+  line-height: 1.28;
+  margin: 0 0 0.45rem;
+  letter-spacing: 0.02em;
+  color: #fff;
+  border: 0;
+  padding: 0;
+}
+
+.hero .en {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: clamp(1.15rem, 2.2vw, 1.45rem);
+  font-weight: 500;
+  font-style: italic;
+  color: #adb5bd;
+  margin: 0 0 1rem;
+  letter-spacing: 0.01em;
+}
+
+.hero p {
+  font-size: 1.12rem;
+  line-height: 1.75;
+  color: #dee2e6;
+  max-width: 42em;
+  margin: 0;
+}
+
+/* —— Page hero —— */
+.page-hero {
+  margin: -1rem -0.75rem 2.25rem;
+  background: var(--hero-2);
+  color: #fff;
+  padding: 2.75rem 0;
+}
+
+.page-hero .page-hero-inner,
+.page-hero section.page-hero-inner {
+  width: min(1080px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.page-hero h1,
+.page-hero .page-hero-inner h1 {
+  font-family: "Source Serif 4", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Georgia, serif;
+  font-size: clamp(1.9rem, 3.8vw, 2.55rem);
+  font-weight: 600;
+  margin: 0 0 0.55rem;
+  color: #fff;
+  border: 0;
+  padding: 0;
+  letter-spacing: 0.02em;
+}
+
+.page-hero p {
+  max-width: 40em;
+  color: #ced4da;
+  margin: 0;
+  font-size: 1.12rem;
+  line-height: 1.7;
+}
+
+/* —— Stats —— */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  margin: 2.25rem 0 2.5rem;
+}
+
+.stat {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.2rem 1.3rem;
+  background: #fff;
+}
+
+.stat b {
+  display: block;
+  font-family: "Source Serif 4", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Georgia, serif;
+  color: var(--accent);
+  font-size: 1.85rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.35rem
+}
+
+.stat p {
+  margin: 0;
+}
+
+.stat span {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* —— Home grid —— */
+.home-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  margin-bottom: 2.75rem;
+}
+
+.map-card,
+.panel {
+  min-width: 0;
+}
+
+.panel {
+  background: var(--soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem;
+}
+
+.panel h2,
+.panel h3,
+.map-card h2 {
+  font-family: "Source Serif 4", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Georgia, serif;
+  font-weight: 600;
+  margin-top: 0;
+  border: 0;
+  padding: 0;
+  font-size: 1.45rem;
+}
+
+.notice-col .panel h2 {
+  font-size: 1.05rem;
+  margin-bottom: 0.65rem;
+}
+
+.map-card {
+  padding: 0;
+  border: none;
+  background:transparent;
+}
+
+.notice-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.notice-list li {
+  position: relative;
+  padding: 0 0 0.75rem 1.15rem;
+}
+
+.notice-list li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.notice-list strong {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.notice-list small {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+/* —— Sections & cards —— */
+.band {
+  padding: 1.5rem 0;
+}
+
+.band.alt {
+  background: #f8f9fa;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.section {
+  padding: 2.75rem 0;
+}
+
+.section.alt {
+  background: #f8f9fa;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.section-title {
+  font-family: "Source Serif 4", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Georgia, serif;
+  font-size: 1.85rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 0.85rem;
+  border: 0;
+  padding: 0;
+  letter-spacing: 0.01em;
+}
+
+.team-content section.section-title {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: inherit;
+  letter-spacing: normal;
+}
+
+.lead {
+  font-size: 1.12rem;
+  line-height: 1.75;
+  color: var(--ink-soft);
+  max-width: 42em;
+}
+
+.eyebrow {
+  color: var(--accent);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  margin-bottom: 0.35rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.35rem 1.4rem;
+  box-shadow: none;
+}
+
+.card h3 {
+  font-family: "Source Serif 4", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Georgia, serif;
+  margin: 0 0 0.55rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.band.alt .cards .card p {
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+.card p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+.codebook-cards {
+  margin-bottom: 3rem;
+}
+
+/* —— Note box —— */
+.note-box {
+  border-left: 3px solid var(--accent);
+  background: #eef6f1;
+  padding: 1rem 1.2rem;
+  border-radius: 0 6px 6px 0;
+  margin: 1.15rem 0;
+  font-size: 1.05rem;
+}
+
+div.callout {
+  border-left: 3px solid var(--accent);
+  background: #eef6f1;
+}
+
+/* —— Process steps —— */
+.process {
+  display: grid;
+  gap: 0.3rem;
+  max-width: 520px;
+  margin: 1.25rem auto;
+}
+
+.process-step {
+  background: var(--soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  text-align: center;
+  padding: 0.55rem 1rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
+.arrow {
+  text-align: center;
+  color: var(--muted);
+  font-size: 1.15rem;
+  line-height: 1;
+  margin: -0.4rem 0
+}
+
+/* —— Tables —— */
+.table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #ffffff;
+  margin: 1.15rem 0;
+  font-size: 0.98rem;
+}
+
+.table-wrap table {
+  border-collapse: collapse;
+  width: max-content;
+  min-width: 100%;
+  margin: 0;
+}
+
+.table-wrap.wide table {
+  min-width: 1800px;
+}
+
+.table-wrap th,
+.table-wrap td {
+  padding: 0.75rem 0.9rem;
+  border-bottom: 1px solid #e9ecef;
+  text-align: left;
+  white-space: nowrap;
+  font-weight: 400
+}
+
+.table-wrap th {
+  background: var(--soft);
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.table-wrap tr:last-child td {
+  border-bottom: 0;
+}
+
+/* —— Buttons —— */
+.btn-row {
+  display: flex;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+  margin-top: 1.4rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  padding: 0.7rem 1.35rem;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1px solid transparent;
+  transition: 0.15s ease;
+  text-decoration: none !important;
+}
+
+.btn-primary {
+  background: var(--accent) !important;
+  color: #fff !important;
+  border-color: var(--accent) !important;
+}
+
+.btn-primary:hover {
+  background: var(--accent-dark) !important;
+  border-color: var(--accent-dark) !important;
+  color: #fff !important;
+}
+
+.btn-outline {
+  border-color: var(--line) !important;
+  background: #fff !important;
+  color: var(--ink) !important;
+}
+
+.btn-outline:hover {
+  border-color: var(--accent) !important;
+  color: var(--accent) !important;
+}
+
+.disabled-link {
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+/* —— Badge —— */
+.badge-soft {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  background: #e7f1eb;
+  color: var(--accent-dark);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.45rem;
+}
+
+/* —— FAQ accordion —— */
+.accordion-item {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+  background: #fff;
+}
+
+.accordion-item > button {
+  width: 100%;
+  border: 0;
+  background: #fff;
+  text-align: left;
+  padding: 1.05rem 1.2rem;
+  font-family: "Source Serif 4", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Georgia, serif;
+  font-size: 1.12rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  color: var(--ink);
+  line-height: 1.45;
+}
+
+.accordion-item .answer {
+  display: none;
+  padding: 0 1.2rem 1.15rem;
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.accordion-item.open .answer {
+  display: block;
+}
+
+.accordion-item.open > button {
+  color: var(--accent);
+}
+
+/* —— Forms —— */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.1rem;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 1rem;
+}
+
+.form-field.full {
+  grid-column: 1 / -1;
+}
+
+.form-field input,
+.form-field textarea,
+.form-field select {
+  font: inherit;
+  padding: 0.65rem 0.8rem;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.form-field textarea {
+  min-height: 140px;
+}
+
+/* —— Map —— */
+.map-image-wrap {
+  width: 100%;
+  margin-top: 0;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.coverage-map-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+}
+
+.map-image-wrap a {
+  display: block;
+}
+
+.map-image-wrap .quarto-figure,
+.map-image-wrap figure {
+  margin: 0;
+}
+
+.map-image-wrap figcaption {
+  display: none;
+}
+
+/* —— Article typography —— */
+main.content {
+  padding-top: 0.5rem;
+}
+
+main.content p,
+main.content li {
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+main.content h2 {
+  font-family: "Source Serif 4", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Georgia, serif;
+  font-size: 1.65rem;
+  font-weight: 600;
+  margin-top: 2.25rem;
+  letter-spacing: 0.01em;
+}
+
+main.content .band.alt h2.section-title {
+  margin-top: 0;
+}
+
+main.content h3 {
+  font-family: "Source Serif 4", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Georgia, serif;
+  font-size: 1.28rem;
+  font-weight: 600;
+}
+
+#title-block-header {
+  display: none;
+}
+
+.download-block {
+  margin-top: 1.25rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--soft);
+}
+
+.download-block h3 {
+  font-family: "Source Serif 4", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem;
+}
+
+.download-block > p {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.download-block .btn-row {
+  margin-top: 0.7rem;
+}
+
+.download-block .btn-row p {
+  margin: 0;
+}
+
+.download-block .btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+/* TOC academic polish */
+.sidebar nav[role="doc-toc"] a,
+#TOC a {
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 950px) {
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .navbar .nav-link {
+    border-bottom: 0;
+    padding: 0.55rem 0.75rem !important;
+  }
+}
+
+@media (max-width: 620px) {
+  body {
+    font-size: 1.05rem;
+  }
+
+  .stats,
+  .cards,
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-inner {
+    padding: 2.25rem 1.15rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+/* Adjust TOC position for custom page hero */
+#quarto-margin-sidebar {
+  margin-top: 200px;
+}
+
+/* 中文版修改 Quarto 自动目录标题 */
+html[lang="zh-CN"] #toc-title {
+  font-size: 0;
+}
+
+html[lang="zh-CN"] #toc-title::after {
+  content: "本页目录";
+  font-size: 1rem;
+}
