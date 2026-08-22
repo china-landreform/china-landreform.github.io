@@ -8,3 +8,4 @@ cat > .gitignore << 'EOF'
 *.dta
 *.xlsx
 EOF
+**/*.quarto_ipynb

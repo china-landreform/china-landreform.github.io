@@ -41,7 +41,7 @@ China-Gazetteer-LandReform
 ::: {.map-card}
 
 ::: {.map-image-wrap}
-[![](../assets/images/county_land_reform_experience.png){.coverage-map-image fig-alt="县级土地改革经历地图"}](../assets/images/county_land_reform_experience.png){target="_blank"}
+[![](../assets/images/county_land_reform_experience_zh.png){.coverage-map-image fig-alt="县级土地改革经历地图"}](../assets/images/county_land_reform_experience_zh.png){target="_blank"}
 :::
 :::
 

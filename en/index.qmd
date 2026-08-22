@@ -40,7 +40,7 @@ A county-level database on China’s land reform, constructed from provincial, m
 ::: {.map-card}
 
 ::: {.map-image-wrap}
-[![](../assets/images/county_land_reform_experience.png){.coverage-map-image fig-alt="County-level Land Reform Experience Map"}](../assets/images/county_land_reform_experience.png){target="_blank"}
+[![](../assets/images/county_land_reform_experience_en.png){.coverage-map-image fig-alt="County-level Land Reform Experience Map"}](../assets/images/county_land_reform_experience_en.png){target="_blank"}
 :::
 :::
 
