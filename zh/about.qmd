@@ -8,7 +8,7 @@ toc-location: right
 
 ::: {.page-hero}
 ::: {.page-hero-inner}
-# 项目概况
+# 项目概况 {.unnumbered .unlisted}
 
 介绍数据库建设背景、目标、现阶段工作和适用研究方向。
 :::
@@ -47,20 +47,29 @@ toc-location: right
 
 **[劳伟健](https://chenzhe.github.io/){target="_blank"}**
 
-
 **[王孟烨](https://fanxw.github.io/){target="_blank"}**
-
-
 
 **[张英杰](https://guojy.github.io/){target="_blank"}**
 
 ### 项目贡献者
 
-特別感谢如下以下同学为项目建设做出的贡献
-
-**[张惟轩](https://guojy.github.io/){target="_blank"}**
+特别感谢以下同学对本项目卓越贡献
 
 **[陈奕蒙](https://leijinsheng.github.io/){target="_blank"}**
 
 **[许诺](https://huangdanyang.github.io/){target="_blank"}**
+
+**[张惟轩](https://guojy.github.io/){target="_blank"}**
+
+此外还要特别感谢以下同学参与本项目数据整理工作
+
+郭姝、施乐天、苏奕之、陶令、薛帆、杨锦航、钟岳霖、
+
+
+
+
+
+
+
+
 
